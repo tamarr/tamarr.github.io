@@ -4,6 +4,7 @@ markdown: kramdown
 url: ""
 baseurl: ""
 psurl: https://parentscheduler.app/
+theme: null
 
 # for atom feed
 author:
