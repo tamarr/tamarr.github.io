@@ -10,14 +10,14 @@
 <meta property="og:title" content="Startup Mom" />
 <meta name="author" content="Tamar Rucham" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/assets/css/style.css" />
-<meta property="og:url" content="http://localhost:4000/assets/css/style.css" />
+<link rel="canonical" href="/assets/css/main.css" />
+<meta property="og:url" content="/assets/css/main.css" />
 <meta property="og:site_name" content="Startup Mom" />
 <script type="application/ld+json">
-{"headline":"Startup Mom","@type":"WebPage","url":"http://localhost:4000/assets/css/style.css","author":{"@type":"Person","name":"Tamar Rucham"},"@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"/assets/css/main.css","headline":"Startup Mom","author":{"@type":"Person","name":"Tamar Rucham"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
   <body>
