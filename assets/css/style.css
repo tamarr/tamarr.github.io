@@ -514,13 +514,6 @@ article .meta {
   color: white !important;
 }
 
-.darkmode .dmode img {
-  filter: invert();
-  -webkit-animation: spin 0.4s linear;
-  -moz-animation: spin 0.4s linear;
-  animation: spin 0.4s linear;
-}
-
 html, body {
 	transition-duration: 0.4s;
 }
