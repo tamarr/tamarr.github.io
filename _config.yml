@@ -1,3 +1,28 @@
+title: Startup Mom
+image: startup_mom.jpg
+markdown: kramdown
+url: ""
+baseurl: ""
+
+# for atom feed
+author:
+  name: Tamar Rucham
+  email: tamar@parentscheduler.app
+  image: "https://s.gravatar.com/avatar/b6082a5ffd214b4b6151900dd3d4d2a2?s=80"
+  bio: A single mom of a 7 year old daughter, after 12 years as a software developer I decided to start a startup. This is my blog.
+
 plugins:
-    - jekyll-sitemap
-    - jekyll-seo-tag
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "post"
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      permalink: /posts/:categories/:year/:month/:day/:title/

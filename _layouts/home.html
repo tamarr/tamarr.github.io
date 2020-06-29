@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main>
+      <span class="author">
+        <img src="{{site.author.image}}" alt="{{site.author.name}}" />
+        <p>
+          {{site.author.name}}
+        </p>
+        <p style="-moz-user-select: none; user-select: none;">
+          {{site.author.bio}}
+        </p>
+      </span>
+      <span class="posts">
+        {% for post in site.posts %}
+        <div class="post">
+          <a href="{{site.baseurl}}{{post.url}}"><h3>{{post.title}}</h3></a>
+          <small>{{post.date|date_to_string}}</small>
+          <p>
+            {{post.content|truncate: 120}}
+          </p>
+        </div>
+        {% endfor %}
+      </span>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>
