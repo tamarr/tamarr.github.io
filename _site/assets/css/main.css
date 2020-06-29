@@ -30,14 +30,21 @@
 </header>
 
     <main>
-      <span class="author">
-        <img src="https://s.gravatar.com/avatar/b6082a5ffd214b4b6151900dd3d4d2a2?s=80" alt="Tamar Rucham" />
-        <p>
-          Tamar Rucham
-        </p>
-        <p style="-moz-user-select: none; user-select: none;">
-          A single mom of a 7 year old daughter, after 12 years as a software developer I decided to start a startup. This is my blog.
-        </p>
+      <span class="desktop-visible">
+        <span class="author">
+  <img src="https://s.gravatar.com/avatar/b6082a5ffd214b4b6151900dd3d4d2a2?s=80" alt="Tamar Rucham" />
+  <p style="-moz-user-select: none; user-select: none;">
+    <strong>11</strong> years as a software engineer.
+    <br />
+    <strong>7</strong> years as a mom.
+    <br />
+    <strong>5</strong> years as a single mom.
+    <br />
+    <strong>2</strong> years as engineering manger.
+    <br />
+    <strong>Almost a year</strong> working on my startup, <a href="mailto:https://parentscheduler.app/">aiming to simplify parenting.</a>
+  </p>
+</span>
       </span>
       <article>
         <div class="meta">
@@ -107,8 +114,20 @@ header {
   border-bottom: 0.1rem solid #C987A4;
 }
 
+.desktop-visible {
+  display: none;
+}
+
+.phone-visible {
+  display: inline-block;
+}
+
 .header img {
   border-radius: 20px;
+  height: 80%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .author img {
@@ -118,26 +137,28 @@ header {
   margin: 0.5rem 1rem 0 0;
 }
 
+.author {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 0.1rem solid #C987A4;
+  padding: 20px;
+  border-radius: 12px;
+  display: block;
+}
+
 .header {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
   padding-top: 30px;
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .posts {
   margin-top: 4rem;
   background-color: white;
-}
-
-.author {
-  width: 20%;
-  float: right;
-  border: 0.1rem solid #C987A4;
-  padding: 20px;
-  border-radius: 12px;
-  margin-left: 20px;
 }
 
 .posts h3 {
@@ -620,8 +641,45 @@ html, body {
   border: 2px solid white;
 }
 
+@media only screen and (min-width: 768px) {
+  .author {
+    width: 20%;
+    float: right;
+    margin-left: 20px;
+    display: inline-block;
+  }
+
+  .header img {
+    height: 30%;
+    width: 30%;
+  }
+
+  .desktop-visible {
+    display: inline;
+  }
+
+  .phone-visible {
+    display: none;
+  }
+}
         </div>
       </article>
+      <span class="phone-visible">
+        <span class="author">
+  <img src="https://s.gravatar.com/avatar/b6082a5ffd214b4b6151900dd3d4d2a2?s=80" alt="Tamar Rucham" />
+  <p style="-moz-user-select: none; user-select: none;">
+    <strong>11</strong> years as a software engineer.
+    <br />
+    <strong>7</strong> years as a mom.
+    <br />
+    <strong>5</strong> years as a single mom.
+    <br />
+    <strong>2</strong> years as engineering manger.
+    <br />
+    <strong>Almost a year</strong> working on my startup, <a href="mailto:https://parentscheduler.app/">aiming to simplify parenting.</a>
+  </p>
+</span>
+      </span>
     </main>
     <footer>
   <p>
