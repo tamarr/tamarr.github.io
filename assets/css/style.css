@@ -17,6 +17,7 @@
 body,
 html {
   font-family: "Montserrat", serif;
+  color: #666;
   line-height: 1.75;
   margin: 0;
   display: flex;
@@ -41,8 +42,12 @@ main {
 footer {
   margin-top: 2rem;
   background-image: url('{{site.baseurl}}/assets/img/hero_pinkbg.svg');
-  border-top: 0.1rem solid #CCC;
+  border-top: 0.1rem solid #C987A4;
   flex-shrink: 0;
+}
+
+footer p {
+  margin-left: 40px;
 }
 
 header * {
@@ -53,7 +58,7 @@ header * {
 
 header {
   background-image: url('{{site.baseurl}}/assets/img/hero_pinkbg.svg');
-  border-bottom: 0.1rem solid #CCC;
+  border-bottom: 0.1rem solid #C987A4;
 }
 
 .header img {
@@ -83,11 +88,10 @@ header {
 .author {
   width: 20%;
   float: right;
-  border: 0.1rem solid #CCC;
+  border: 0.1rem solid #C987A4;
   padding: 20px;
   border-radius: 12px;
   margin-left: 20px;
-  height: 100%;
 }
 
 .posts h3 {
@@ -125,7 +129,7 @@ article .title {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  color: inherit;
+  color: #C987A4;
   font-family: Montserrat, sans-serif;
   font-weight: 900;
   text-rendering: optimizeLegibility;

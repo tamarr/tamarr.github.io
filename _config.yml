@@ -3,6 +3,7 @@ image: startup_mom.jpg
 markdown: kramdown
 url: ""
 baseurl: ""
+psurl: https://parentscheduler.app/
 
 # for atom feed
 author:
