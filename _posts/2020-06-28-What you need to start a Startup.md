@@ -7,7 +7,7 @@ It starts with a passion to build a startup. That's all you really need.
 
 Then you start looking at everything around you with a new pair of glasses. The problem solving kind. When you start looking at the world this way, slowly but surely ideas will start coming. Some will be silly and you'll discard them quickly and discreetly. Others won't be so bad.
 
-Once an idea catches your fancy - talk about it. With everyone but especially with your target audience. Talk about it with your family, talk about it with your friends, don't be overly afraid of it getting stolen. The consensus is that startup ideas are plentiful, it's the ability to execute, and execute well, that is scarce. If you are still worried, here’s a great article that talks about when and what to share on your startup idea. TL;DR feel free to share at an early stage, when it’s just a thought without a plan or design.
+Once an idea catches your fancy - talk about it. With everyone but especially with your target audience. Talk about it with your family, talk about it with your friends, don't be overly afraid of it getting stolen. The consensus is that startup ideas are plentiful, it's the ability to execute, and execute well, that is scarce. If you are still worried, here’s a great article that talks about [when and what to share on your startup idea](https://entrepreneurshandbook.co/the-truth-about-idea-stealing-47bcb8a0106a). TL;DR feel free to share at an early stage, when it’s just a thought without a plan or design.
 
 Talking to people helps you form your idea better. It will force you to define it better, to explain it. Not everyone will get it but it doesn’t always mean you should be discouraged. When you start a startup you find that everyone has an opinion. Take all those opinions with both hands but with a grain of salt. A journey of a startup is a beautiful and mysterious balance between listening carefully and honestly to everyone's opinion, and being stubborn and strong headed in your way.
 
@@ -15,6 +15,6 @@ The process of finding the right idea for your startup takes time. It can be fru
 
 After my spell of not-so-great ideas I've decided to focus on parents scheduling because it's a hard problem that affects so many people yet it gets so little attention and so few tools are designed specifically for it. I chose this because I wholeheartedly believe I can make a difference. And I chose it because enough parents responded to my value proposition with overwhelming exuberance and delight.
 
-Having said all that, your initial idea isn't always going to last either. More often than not you will change direction, as so many other companies have done before. Check out famous pivots for inspiration.
+Having said all that, your initial idea isn't always going to last either. More often than not you will change direction, as so many other companies have done before. Check out [famous pivots](https://www.forbes.com/sites/jasonnazar/2013/10/08/14-famous-business-pivots/#19c7ee579780) for inspiration.
 
-Don't hang your dream of starting a startup on finding the ultimate-most-best idea. It starts with a passion. And the rest will follow.
+Don't hang your dream of starting a startup on finding the ultimate-most-best idea. It starts with a passion. [And the rest will follow](https://www.youtube.com/watch?v=i7iQbBbMAFE).
