@@ -556,6 +556,7 @@ header {
 .bioheader {
   display: flex;
   align-items:center;
+  font-size: 0.9rem;
 }
 
 .posts {
@@ -1066,6 +1067,10 @@ html, body {
 
   .phone-visible {
     display: none;
+  }
+
+  main {
+    width: 60rem;
   }
 }
         </div>
