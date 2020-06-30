@@ -142,6 +142,11 @@ header {
   text-align: center;
 }
 
+.bioheader {
+  display: flex;
+  align-items:center;
+}
+
 .posts {
   margin-top: 4rem;
   background-color: white;

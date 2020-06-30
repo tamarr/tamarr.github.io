@@ -33,7 +33,7 @@
       <span class="desktop-visible">
         <div class="sidebar">
   <span class="author">
-    <img src="https://s.gravatar.com/avatar/b6082a5ffd214b4b6151900dd3d4d2a2?s=80" alt="Tamar Rucham" />
+    <div class="bioheader"><img src="https://s.gravatar.com/avatar/b6082a5ffd214b4b6151900dd3d4d2a2?s=80" alt="Tamar Rucham" /><span>Tamar Rucham</span></div>
     <p style="-moz-user-select: none; user-select: none;">
       <strong>11</strong> years as a software engineer.
       <br />
@@ -553,6 +553,11 @@ header {
   text-align: center;
 }
 
+.bioheader {
+  display: flex;
+  align-items:center;
+}
+
 .posts {
   margin-top: 4rem;
   background-color: white;
@@ -1068,7 +1073,7 @@ html, body {
       <span class="phone-visible">
         <div class="sidebar">
   <span class="author">
-    <img src="https://s.gravatar.com/avatar/b6082a5ffd214b4b6151900dd3d4d2a2?s=80" alt="Tamar Rucham" />
+    <div class="bioheader"><img src="https://s.gravatar.com/avatar/b6082a5ffd214b4b6151900dd3d4d2a2?s=80" alt="Tamar Rucham" /><span>Tamar Rucham</span></div>
     <p style="-moz-user-select: none; user-select: none;">
       <strong>11</strong> years as a software engineer.
       <br />
