@@ -4,7 +4,9 @@
   <body>
     {% include header.html %}
     <main>
-      {% include bio.html %}
+      <span class="desktop-visible">
+        {% include bio.html %}
+      </span>
       <span class="posts">
         {% for post in site.posts %}
         <div class="post">
@@ -15,6 +17,9 @@
           </p>
         </div>
         {% endfor %}
+        <span class="phone-visible" style="margin-top: 20px;">
+          {% include bio.html %}
+        </span>
       </span>
     </main>
     {% include footer.html %}
