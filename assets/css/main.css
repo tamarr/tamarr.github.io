@@ -169,6 +169,12 @@ header {
   margin: 0px;
 }
 
+.share {
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .posts {
   margin-top: 4rem;
   background-color: white;
