@@ -1,9 +1,10 @@
 title: Startup Mom
-header-image: startup_mom.jpg
+header-image: /assets/img/startup_mom.jpg
 image:
   path: /assets/img/startup_mom.jpg
   height: 100
   width: 100
+twitter_username: "tamarucham"
 markdown: kramdown
 url: "https://blog.parentscheduler.app"
 baseurl: ""
