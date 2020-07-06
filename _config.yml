@@ -1,5 +1,9 @@
 title: Startup Mom
-image: startup_mom.jpg
+header-image: startup_mom.jpg
+image:
+  path: /assets/img/startup_mom.jpg
+  height: 100
+  width: 100
 markdown: kramdown
 url: ""
 baseurl: ""
