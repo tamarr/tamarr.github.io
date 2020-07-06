@@ -2,7 +2,7 @@
 layout: post
 small-image: https://media.giphy.com/media/YBsd8wdchmxqg/giphy.gif
 ---
-Before focusing on things like market research and books you should read, let’s talk about funding. That pesky little nuisance. Now, I’m not going to go into [how to get funding](https://lmgtfy.com/?q=startup+how+to+get+funding). That will also depend on the type of startup and where you’re based, but let’s talk about general considerations. Opening a startup is a risk, and it’s an endeavor, so before you plunge yourself head first take some time to consider this question: how are you going to fund this?
+Let’s talk about funding. That pesky little nuisance. Now, I’m not going to go into [how to get funding](https://lmgtfy.com/?q=startup+how+to+get+funding). That will also depend on the type of startup and where you’re based, but let’s talk about general considerations. Opening a startup is a risk, and it’s an endeavor, so before you plunge yourself head first take some time to consider this question: how are you going to fund this?
 
 <iframe src="https://giphy.com/embed/YBsd8wdchmxqg" width="480" height="419" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/money-make-it-rain-cat-YBsd8wdchmxqg">via GIPHY</a></p>
 
