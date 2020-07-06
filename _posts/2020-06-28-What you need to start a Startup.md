@@ -20,4 +20,8 @@ As I mentioned I spent a couple of years in this stage, chasing around my own ta
 
 Having said all that, your initial idea isn't always going to last either. More often than not you will change direction, as so many other companies have done before. Check out [famous pivots](https://www.forbes.com/sites/jasonnazar/2013/10/08/14-famous-business-pivots/#19c7ee579780) for inspiration.
 
-**Don't hang your dream of starting a startup on finding the ultimate-most-best idea.** It starts with a passion. [And the rest will follow](https://www.youtube.com/watch?v=i7iQbBbMAFE).
+**Don't hang your dream of starting a startup on finding the ultimate-most-best idea.** It starts with a passion.
+
+[And the rest will follow](https://www.youtube.com/watch?v=i7iQbBbMAFE).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i7iQbBbMAFE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
