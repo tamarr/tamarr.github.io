@@ -5,7 +5,7 @@ image:
   height: 100
   width: 100
 markdown: kramdown
-url: ""
+url: "https://blog.parentscheduler.app"
 baseurl: ""
 psurl: https://parentscheduler.app/
 theme: null
