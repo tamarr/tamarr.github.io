@@ -9,12 +9,17 @@
       </span>
       <span class="posts">
         {% for post in site.posts %}
-        <div class="post">
-          <a href="{{site.baseurl}}{{post.url}}"><h3>{{post.title}}</h3></a>
-          <small>{{post.date|date_to_string}}</small>
-          <p>
-            {{post.content|truncate: 120}}
-          </p>
+        <div>
+          <span class="image">
+            <img src="{{post.small-image}}" width="150px" style="margin-right: 20px;" />
+          </span>
+          <span class="post">
+            <a href="{{site.baseurl}}{{post.url}}"><h3>{{post.title}}</h3></a>
+            <small>{{post.date|date_to_string}}</small>
+            <p>
+              {{post.content|truncate: 120}}
+            </p>
+          </span>
         </div>
         {% endfor %}
         <span class="phone-visible" style="margin-top: 20px;">

@@ -1,9 +1,12 @@
 ---
 layout: post
+small-image: https://media.giphy.com/media/w3J7mstYCISqs/giphy.gif
 ---
 Well, obviously you should start with a really great idea, right? Well, no. Not necessarily. I've wanted to start my own company for years. I have had many ideas along the way. Honestly the first ones were kinda awful in a totally embarrassing way.
 
 **It can start simply with a passion to build a startup. That's all you really need.**
+
+<iframe src="https://giphy.com/embed/w3J7mstYCISqs" width="480" height="342" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-space-high-w3J7mstYCISqs">via GIPHY</a></p>
 
 Then you start looking at everything around you with a new pair of glasses. The problem solving kind. When you start looking at the world this way, slowly but surely ideas will start coming. Some will be silly and you'll discard them quickly and discreetly. Others won't be so bad.
 
