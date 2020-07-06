@@ -9,9 +9,9 @@
       </span>
       <span class="posts">
         {% for post in site.posts %}
-        <div>
+        <div class="post-container">
           <span class="image">
-            <img src="{{post.small-image}}" width="150px" style="margin-right: 20px;" />
+            <img src="{{post.small-image}}" width="150px" />
           </span>
           <span class="post">
             <a href="{{site.baseurl}}{{post.url}}"><h3>{{post.title}}</h3></a>

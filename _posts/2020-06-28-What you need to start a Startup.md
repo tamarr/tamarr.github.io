@@ -6,7 +6,7 @@ Well, obviously you should start with a really great idea, right? Well, no. Not 
 
 **It can start simply with a passion to build a startup. That's all you really need.**
 
-<iframe src="https://giphy.com/embed/w3J7mstYCISqs" width="480" height="342" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-space-high-w3J7mstYCISqs">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/w3J7mstYCISqs" frameBorder="0" class="giphy-embed post-gif" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-space-high-w3J7mstYCISqs">via GIPHY</a></p>
 
 Then you start looking at everything around you with a new pair of glasses. The problem solving kind. When you start looking at the world this way, slowly but surely ideas will start coming. Some will be silly and you'll discard them quickly and discreetly. Others won't be so bad.
 
@@ -24,4 +24,4 @@ Having said all that, your initial idea isn't always going to last either. More 
 
 [And the rest will follow](https://www.youtube.com/watch?v=i7iQbBbMAFE).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i7iQbBbMAFE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/i7iQbBbMAFE" class="post-image" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

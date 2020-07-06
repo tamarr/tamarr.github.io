@@ -4,7 +4,7 @@ small-image: https://media.giphy.com/media/YBsd8wdchmxqg/giphy.gif
 ---
 Let’s talk about funding. That pesky little nuisance. Now, I’m not going to go into [how to get funding](https://lmgtfy.com/?q=startup+how+to+get+funding). That will also depend on the type of startup and where you’re based, but let’s talk about general considerations. Opening a startup is a risk, and it’s an endeavor, so before you plunge yourself head first take some time to consider this question: how are you going to fund this?
 
-<iframe src="https://giphy.com/embed/YBsd8wdchmxqg" width="480" height="419" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/money-make-it-rain-cat-YBsd8wdchmxqg">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/YBsd8wdchmxqg" class="post-image" frameBorder="0" class="giphy-embed post-gif" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/money-make-it-rain-cat-YBsd8wdchmxqg">via GIPHY</a></p>
 
 There are many ways of funding like angel investors, VCs, crowdfunding, bootstrapping (self funding) [and more](https://www.entrepreneur.com/slideshow/299773). Each path has different considerations and more often than not, reality is, well, a messy mix. The first part of a startup you’re always going to have to fund yourself. Maybe special rock stars get funded based on a vague idea alone but that’s not for us commoners. Good news is, you can usually start on that very initial stage of research while still keeping your job. It’s not easy, especially if you have kids. I mean, if you have little kids you can barely hear your own thoughts for most of the day, how the hell are you supposed to find time to do this in addition? But if you find an idea you’re super passionate about, and that strong drive to create it, you’ll find the time.
 
@@ -31,4 +31,4 @@ I hope this post did not deter you. Like I said in my [previous post](https://bl
 
 [And that’s all I have to say about that.](https://www.youtube.com/watch?v=Otm4RusESNU)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Otm4RusESNU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/Otm4RusESNU" class="post-image" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
