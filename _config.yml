@@ -22,7 +22,6 @@ plugins:
   - jemoji
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-analytics
 
 defaults:
   - scope:
@@ -34,8 +33,3 @@ defaults:
     values:
       layout: "post"
       permalink: /posts/:categories/:year/:month/:day/:title/
-
-jekyll_analytics:
-  GoogleAnalytics:
-    id: UA-171797937-1
-    anonymizeIp: true
