@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What You Need to Start a Startup
+subtitle: Do you have to start with a great idea? Not necessarily
 small-image: https://media.giphy.com/media/w3J7mstYCISqs/giphy.gif
 ---
 Well, obviously you should start with a really great idea, right? Well, no. Not necessarily. I've wanted to start my own company for years. I have had many ideas along the way. Honestly the first ones were kinda awful in a totally embarrassing way.

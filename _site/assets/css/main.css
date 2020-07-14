@@ -35,6 +35,9 @@
     <a href="/">
       <img src="/assets/img/startup_mom.jpg" alt="Startup Mom" width="600" />
     </a>
+    <div class="header-subtitle">
+      A blog based on my experiences building <a href="https://parentscheduler.app/">the ParentScheduler</a>
+    </div>
   </div>
 </header>
 
@@ -418,6 +421,9 @@
           <h1 class="title">
             
           </h1>
+          <h4>
+            
+          </h4>
           <small></small>
         </div>
         <div class="content">
@@ -462,7 +468,7 @@ main {
 footer {
   margin-top: 2rem;
   background-image: url('/assets/img/hero_pinkbg.svg');
-  border-top: 0.1rem solid #C987A4;
+  border-top: 0.1rem solid #AAA;
   flex-shrink: 0;
 }
 
@@ -478,7 +484,7 @@ header * {
 
 header {
   background-image: url('/assets/img/hero_pinkbg.svg');
-  border-bottom: 0.1rem solid #C987A4;
+  border-bottom: 0.1rem solid #AAA;
 }
 
 .desktop-visible {
@@ -495,6 +501,17 @@ header {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
+  border: 0.2rem solid #AAA;
+}
+
+.header-subtitle {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Montserrat-Light';
+  font-size: 1rem;
+  color: #888;
 }
 
 .author img {
@@ -505,14 +522,14 @@ header {
 }
 
 .author {
-  border: 0.1rem solid #C987A4;
+  border: 0.1rem solid #AAA;
   padding: 20px;
   border-radius: 12px;
   display: block;
 }
 
 .signup {
-  border: 0.1rem solid #C987A4;
+  border: 0.1rem solid #AAA;
   padding: 20px;
   border-radius: 12px;
   display: block;
@@ -580,7 +597,7 @@ header {
 }
 
 .post-container {
-  border-bottom: 0.05rem solid #C987A4;
+  border-bottom: 0.05rem solid #AAA;
   margin-bottom: 20px;
 }
 
@@ -635,7 +652,7 @@ article .title {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  color: #C987A4;
+  color: #9AC6D4;
   font-family: Montserrat, sans-serif;
   font-weight: 900;
   text-rendering: optimizeLegibility;
