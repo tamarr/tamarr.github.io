@@ -1,7 +1,7 @@
 ---
 layout: post
 title: If You Build It. If They Come.
-subtitle: About the two wrong paths first time founders tend to follow in their early stage startups
+subtitle: About the two types of mistakes first time founders tend to do in their early stage startups
 small-image: https://media.giphy.com/media/3rYxjO5uI5XKWfekns/giphy.gif
 ---
 Starting a startup you will (most likely) discover a large and supportive community of people like you, trying to make their dream a reality. Excluding multi time entrepreneurs, this community tends to divide into two main groups: people who come from a technical background; and those who come with specific domain knowledge or sales \ marketing \ business. There is a key difference in the routes these two groups often takes and where they tend to fail.
