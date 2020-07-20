@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Making the wrong mistakes
-subtitle: About the right mistakes and wrong mistakes and not letting either get in your way
+title: Make The Wrong Mistakes
+subtitle: About right mistakes, wrong mistakes and why you should do both
 small-image: https://media.giphy.com/media/eroScTnthmrn2/giphy.gif
 ---
 
