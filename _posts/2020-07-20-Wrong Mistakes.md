@@ -3,6 +3,7 @@ layout: post
 title: Make The Wrong Mistakes
 subtitle: About right mistakes, wrong mistakes and why you should do both
 small-image: https://media.giphy.com/media/eroScTnthmrn2/giphy.gif
+read-time: 5
 ---
 
 <a href="https://www.goodreads.com/book/show/11500159-the-lean-startup" target="_blank">Lean startup</a> is about learning and adjusting. In other words, it’s about making mistakes. But they always talk about the right kind of mistakes. The ones you learn from. The basic idea is incredibly powerful: instead of basing your decisions on thoughts and possibly misguided beliefs, make all assumptions into as small a test as possible and validate. I’ve read quite a few books about getting started, and I’ll definitely write a post about them at some point, but most of them say similar things: iterate. Try something. Fail. Make it better. Making mistakes is just part of the process.

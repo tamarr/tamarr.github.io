@@ -3,6 +3,7 @@ layout: post
 title: What About Funding?
 subtitle: Some funding considerations you should think about when you start a startup
 small-image: https://media.giphy.com/media/YBsd8wdchmxqg/giphy.gif
+read-time: 4
 ---
 Let’s talk about funding. That pesky little nuisance. Now, I’m not going to go into [how to get funding](https://lmgtfy.com/?q=startup+how+to+get+funding). That will also depend on the type of startup and where you’re based, but let’s talk about general considerations. Opening a startup is a risk, and it’s an endeavor, so before you plunge yourself head first take some time to consider this question: how are you going to fund this?
 
