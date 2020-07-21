@@ -184,6 +184,7 @@ header {
   width: auto;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 40px;
 }
 
 .posts {
@@ -204,6 +205,13 @@ header {
   font-size: 80%;
   margin-top: 0.6rem;
   display: block;
+}
+
+.comments {
+  border-top: 0.1rem solid #AAA;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* post page */

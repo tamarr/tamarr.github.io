@@ -26,6 +26,15 @@
       </span>
     </main>
     <span class="share">{% include share-buttons.html %}</span>
+    <div id="hyvor-talk-view" class="comments"></div>
+    <script type="text/javascript">
+        var HYVOR_TALK_WEBSITE = 1263; // DO NOT CHANGE THIS
+        var HYVOR_TALK_CONFIG = {
+            url: '{{ page.url | absolute_url }}',
+            id: '{{page.id}}'
+        };
+    </script>
+    <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
     {% include footer.html %}
   </body>
 </html>
