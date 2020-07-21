@@ -12,17 +12,17 @@ read-time: 5
 
 Cool. Sounds like a plan. Of course, <a href="https://en.wikipedia.org/wiki/Helmuth_von_Moltke_the_Elder#Moltke's_theory_of_war" target="_blank">no good plan survives its first encounter with reality</a>. In reality things are complicated and messy. In reality it’s really hard to isolate what you are testing and how you are testing it and you always doubt yourself. Did this test really say what I think? If I just tweak it a little will I get a different result or do I need to change direction? And one of my favorite results is: this didn’t work but I just don’t know what will. **Was this the _right_ mistake to make?**
 
-**Clear test, Clear result. An example of a good mistake.** At the beginning my design for the ParentScheduler was very different. The best way to show children’s schedule is through a weekly view, is what I figured. As I started building it I wanted to make sure my flow for editing a parent doing a pickup was clear so I created a test in <a href="https://usabilityhub.com/" target="_blank">UsabilityHub</a>. The first step was trivial: get from the main view to the editing view. Then select the parent to change. I was sure of the test's success, it was so simple after all.
+**Clear test, Clear result. An example of a good mistake.** At the beginning my design for the main view of the ParentScheduler was very different than what it is today. I was so certain in my design I almost didn't test that people got it. Of course they will get it. It was brilliant! But given all I've read I decided to create a quick test in <a href="https://usabilityhub.com/" target="_blank">UsabilityHub</a>. I was sure of the tests' success, it was so simple after all. As I mentioned in <a href="https://blog.parentscheduler.app/posts/2020/07/06/What-About-Funding/" target="_blank">my post about funding</a>, I’m bootstrapping so I did small batches <a href="https://www.nngroup.com/articles/how-many-test-users/" target="_blank">which are apparently all you need</a>.
 
-As I mentioned in <a href="https://blog.parentscheduler.app/posts/2020/07/06/What-About-Funding/" target="_blank">my post about funding</a>, I’m bootstrapping so I did small tests <a href="https://www.nngroup.com/articles/how-many-test-users/" target="_blank">which are apparently all you need</a>. First test run only 20% (1 person) made it through. **Ok... Well it’s probably because of this little thing... let me update it.**
+**Test No. 1** - only *one* person out of the 5 testers made it through. *Ok... Well it’s probably because of this little thing... let me update it.*
 
-Second test... again only one person made it through. **No no, that must be just 4 people who didn’t get it.** Let’s run this same test again. Same result.
+**Test No. 2** - again only one person made it through. *No no, that must be just 4 people who didn’t get it.* Let’s run this same test again. Same result.
 
-Another tweak. Same result.
+**Test No. 3** - another tweak. *Same result.*
 
-I was ready to pull my hair out. **I was lost.** What on earth is happening. Luckily I made sure to ask an open ended question as part of the test. And a kind tester wrote something that finally tipped me off. People didn’t get the edit flow because they didn’t get the context from the main view. **Could it really be this simple?**
+I was ready to pull my hair out. **I was lost.** What on earth is happening. Luckily I made sure to ask an open ended question as part of the test. And a kind tester wrote something that finally tipped me off. People just didn't get my design, my base assumption was flawed.
 
-I quickly made another test, mocking a monthly view instead of a weekly one. 4 people out of 5 got through. And that’s only because the one person clicked just outside the area (pro tip - always make clicking areas bigger). **I’m gonna call it 100% success.** I couldn’t believe it. Literally. So I ran another one, a more complicated one, just to be sure.
+I quickly made another test, mocking a new main view, very different from the design I was so certain of. 4 people out of 5 got through. And that’s only because the one person clicked just outside the area (pro tip - always make clicking areas bigger). **I’m gonna call it 100% success.** I couldn’t believe it. Literally. So I ran another one, a more complicated one, just to be sure.
 
 <kbd>
   <img style="border: 0.1rem solid #AAA;" src="/assets/img/mistakes_tests.png">
