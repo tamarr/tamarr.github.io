@@ -420,6 +420,8 @@
         <div class="meta">
           <h1 class="title">
             
+            
+            
           </h1>
           <h4>
             
@@ -546,7 +548,7 @@ header {
   padding-left: 8px;
   margin-bottom: 10px;
   width: 95%;
-  text-align: center;
+  text-align: left;
 }
 
 .mimi_field input {
@@ -559,8 +561,7 @@ header {
 }
 
 .submit {
-  padding-right: 24px;
-  padding-left: 14px;
+  padding-left: 12px;
   padding-top: 2px;
   padding-bottom: 0px;
   border-radius: 15px;
@@ -635,9 +636,13 @@ header {
 
 .comments {
   border-top: 0.1rem solid #AAA;
-  width: 50%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.strike {
+  text-decoration-line: line-through;
 }
 
 /* post page */
@@ -1158,6 +1163,10 @@ html, body {
 
   .post-container {
     border-bottom: 0;
+  }
+
+  .comments {
+    width: 50%;
   }
 }
         </div>

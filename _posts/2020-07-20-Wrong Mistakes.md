@@ -2,13 +2,13 @@
 layout: post
 title: Make The Wrong Mistakes
 subtitle: About right mistakes, wrong mistakes and why you should do both
-small-image: https://media.giphy.com/media/eroScTnthmrn2/giphy.gif
+small-image: https://media.giphy.com/media/NqZn5kPN8VVrW/giphy.gif
 read-time: 5
 ---
 
 <a href="https://www.goodreads.com/book/show/11500159-the-lean-startup" target="_blank">Lean startup</a> is about learning and adjusting. In other words, it’s about making mistakes. But they always talk about the right kind of mistakes. The ones you learn from. The basic idea is incredibly powerful: instead of basing your decisions on thoughts and possibly misguided beliefs, make all assumptions into as small a test as possible and validate. I’ve read quite a few books about getting started, and I’ll definitely write a post about them at some point, but most of them say similar things: iterate. Try something. Fail. Make it better. Making mistakes is just part of the process.
 
-<iframe src="https://giphy.com/embed/eroScTnthmrn2" frameBorder="0" class="post-image post-gif" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-from-bed-eroScTnthmrn2">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/NqZn5kPN8VVrW" frameBorder="0" class="post-image post-gif" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-animals-being-jerks-dicks-NqZn5kPN8VVrW">via GIPHY</a></p>
 
 Cool. Sounds like a plan. Of course, <a href="https://en.wikipedia.org/wiki/Helmuth_von_Moltke_the_Elder#Moltke's_theory_of_war" target="_blank">no good plan survives its first encounter with reality</a>. In reality things are complicated and messy. In reality it’s really hard to isolate what you are testing and how you are testing it and you always doubt yourself. Did this test really say what I think? If I just tweak it a little will I get a different result or do I need to change direction? And one of my favorite results is: this didn’t work but I just don’t know what will. **Was this the _right_ mistake to make?**
 

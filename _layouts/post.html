@@ -10,7 +10,11 @@
       <article>
         <div class="meta">
           <h1 class="title">
+            {% if page.formatted-title %}
+            {{page.formatted-title}}
+            {% else %}
             {{page.title}}
+            {% endif %}
           </h1>
           <h4>
             {{page.subtitle}}
