@@ -18,7 +18,7 @@ Every modern startup advice tells you about the MVP, the minimum viable product.
 
 (I love this quote and <a href="https://www.facebook.com/groups/sadpuppers420/" target="_blank">I feel personally attacked by this relatable content</a>)
 
-So you’ve taken the advice, you released, the world reacted as expected (you know the world isn’t holding its breath but it’s still hard to realise how much nobody cares [meme]). Now that you’ve crossed that barrier, released something meh and got meh responses to it, how would you know what to focus on now? Amongst the noise of early feedback, how will you decide what to improve next?
+So you’ve taken the advice, you released, the world reacted as expected (you know the world isn’t holding its breath but it’s still hard to realise how much <a href="#nobody_cares">nobody cares</a>). Now that you’ve crossed that barrier, released something meh and got meh responses to it, how would you know what to focus on now? Amongst the noise of early feedback, how will you decide what to improve next?
 
 Last week I was in a kick off meeting for <a href="https://www.startupschool.org/" target="_blank">Startup School</a> (it’s been pretty cool so far and it’s free!). Someone asked the YC partner running the call how to know where to invest your time as a solo founder, how to decide what to focus on. Eric responded that at the end of the day it is a question of prioritization and that he presented that question to the founders of Heroku once. Their response was - work on what’s burning.
 
@@ -33,3 +33,5 @@ You might ask - ok, but wouldn't it have been better to fix it *before* people e
 When you release an MVP it’s going to be awful in a lot of different ways. The first step is to accept it and release it anyway. The second step will be to decide what to improve at each point in time. **Letting the product be “not great” is not a one time decision**. You have to make that decision at every step, to show to the world your unperfect product, to improve slowly over time, to be an eventual perfectionist.
 
 And if you need some inspiration and encouragement, here are some <a href="https://www.forbes.com/sites/sujanpatel/2015/01/16/8-successful-products-that-only-exist-because-of-failure/#22c2d3941c8c" target="_blank">successful products that had to try again and again before they got it right</a>.
+
+<span id="nobody_cares">![my funny meme]({{ site.baseurl }}/assets/img/nobody_cares.jpg "My Funny Meme")</span>
