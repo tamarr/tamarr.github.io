@@ -1,26 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://blog.parentscheduler.app/posts/2020/06/28/What-you-need-to-start-a-Startup/</loc>
-<lastmod>2020-06-28T00:00:00+03:00</lastmod>
-</url>
-<url>
-<loc>https://blog.parentscheduler.app/posts/2020/07/06/What-About-Funding/</loc>
-<lastmod>2020-07-06T00:00:00+03:00</lastmod>
-</url>
-<url>
-<loc>https://blog.parentscheduler.app/posts/2020/07/14/If-You-Build-It/</loc>
-<lastmod>2020-07-14T00:00:00+03:00</lastmod>
-</url>
-<url>
-<loc>https://blog.parentscheduler.app/posts/2020/07/20/Wrong-Mistakes/</loc>
-<lastmod>2020-07-20T00:00:00+03:00</lastmod>
-</url>
-<url>
-<loc>https://blog.parentscheduler.app/posts/2020/07/27/Single/</loc>
-<lastmod>2020-07-27T00:00:00+03:00</lastmod>
-</url>
-<url>
-<loc>https://blog.parentscheduler.app/</loc>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    <url>
+      <loc>https://blog.parentscheduler.app/posts/2020/08/03/Perfectionist/</loc>
+      <lastmod>2020-08-03T00:00:00+03:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+    <url>
+      <loc>https://blog.parentscheduler.app/posts/2020/07/27/Single/</loc>
+      <lastmod>2020-07-27T00:00:00+03:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+    <url>
+      <loc>https://blog.parentscheduler.app/posts/2020/07/20/Wrong-Mistakes/</loc>
+      <lastmod>2020-07-20T00:00:00+03:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+    <url>
+      <loc>https://blog.parentscheduler.app/posts/2020/07/14/If-You-Build-It/</loc>
+      <lastmod>2020-07-14T00:00:00+03:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+    <url>
+      <loc>https://blog.parentscheduler.app/posts/2020/07/06/What-About-Funding/</loc>
+      <lastmod>2020-07-06T00:00:00+03:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+    <url>
+      <loc>https://blog.parentscheduler.app/posts/2020/06/28/What-you-need-to-start-a-Startup/</loc>
+      <lastmod>2020-06-28T00:00:00+03:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
 </urlset>
