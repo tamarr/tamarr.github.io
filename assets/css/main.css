@@ -179,6 +179,13 @@ header {
   margin: 0px;
 }
 
+.inline-post-image {
+  margin-right:
+  auto; margin-left: auto;
+  display: inline-block;
+  border: solid 1px gray;
+}
+
 .share {
   width: auto;
   margin-right: auto;

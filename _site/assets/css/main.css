@@ -14,7 +14,7 @@
 <meta property="og:url" content="https://blog.parentscheduler.app/assets/css/main.css" />
 <meta property="og:site_name" content="Startup Mom" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"https://blog.parentscheduler.app/assets/css/main.css","headline":"Startup Mom","author":{"@type":"Person","name":"Tamar Rucham"},"@context":"https://schema.org"}</script>
+{"headline":"Startup Mom","author":{"@type":"Person","name":"Tamar Rucham"},"@type":"WebPage","url":"https://blog.parentscheduler.app/assets/css/main.css","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -605,6 +605,13 @@ header {
 .image {
   display: block;
   margin: 0px;
+}
+
+.inline-post-image {
+  margin-right:
+  auto; margin-left: auto;
+  display: inline-block;
+  border: solid 1px gray;
 }
 
 .share {
