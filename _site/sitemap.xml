@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
+      <loc>https://blog.parentscheduler.app/posts/2020/10/27/experiment/</loc>
+      <lastmod>2020-10-27T00:00:00+02:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+    <url>
       <loc>https://blog.parentscheduler.app/posts/2020/10/01/forest/</loc>
       <lastmod>2020-10-01T00:00:00+03:00</lastmod>
       <changefreq>monthly</changefreq>
