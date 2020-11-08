@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Bread Crumb Trail to Product Market Fit
-subtitle: About following the little hints your users and data will give you 
+subtitle: About following the little hints your users and data provide, on your way to finding product market fit
 small-image: https://media.giphy.com/media/dPaVE2pE4mkg/giphy.gif
 read-time: 3
 ---
