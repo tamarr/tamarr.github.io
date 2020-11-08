@@ -5,7 +5,7 @@ subtitle: About following the little hints your users and data will give you
 small-image: https://media.giphy.com/media/dPaVE2pE4mkg/giphy.gif
 read-time: 3
 ---
-What do uses want? In one way or another that is the question any company looking for product market fit is trying to answer. Who are our users? What is it that they want? And **can we give it to them**? Oftentimes these three questions get so tangled it's hard to tell them apart. However I found there is value in looking at each part of this equation individually, not only as a whole, so let's break this down:
+What do users want? In one way or another that is the question any company looking for product market fit is trying to answer. Who are our users? What is it that they want? And **can we give it to them**? Oftentimes these three questions get so tangled it's hard to tell them apart. However I found there is value in looking at each part of this equation individually, not only as a whole, so let's break this down:
 
 <iframe src="https://giphy.com/embed/dPaVE2pE4mkg" width="360" height="480" class="post-image post-gif" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/kitten-boots-mittens-dPaVE2pE4mkg">via GIPHY</a></p>
 
