@@ -751,4 +751,8 @@ html, body {
   .comments {
     width: 50%;
   }
+
+  li{
+    margin: 10px 0;
+  }
 }
