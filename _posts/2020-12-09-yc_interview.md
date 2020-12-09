@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Who Me? An Interview At YC??
+title: An Interview At YCombinator
 subtitle: About getting an interview with YCombinator! And, spoiler alert, getting rejected.
 small-image: https://media.giphy.com/media/5aCiXMnPl1cli/giphy.gif
 read-time: 5
