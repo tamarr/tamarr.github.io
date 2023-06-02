@@ -10,12 +10,12 @@
       theme: {
         extend: {
           colors: {
-            themepurple: '#8A4F7D',
-            themegreen: '#88A096',
-            themetext: '#405155',
+            themedark: '#14283A',
+            themelight: '#74C9CB',
           },
           fontFamily: {
             courier: "Courier New",
+            mont: "Montserrat",
           }
         }
       }
@@ -23,46 +23,85 @@
   </script>
 </head>
 <body>
-  <div class="bg-slate-100 h-full text-themetext">
-    <div class="container mx-auto max-w-md md:max-w-5xl py-20 px-10">
-      <div class="pb-10 max-w-md">
-        <img class="chat-notification-logo" src="./img/logo.svg" alt="VeraConnect Logo">
-        <div class="itelic font-courier text-xl">The clinician's personal assistant</div>
-      </div>
-      <div class="flex-row md:flex md:py-10">
-        <div class="basis-2/3 md:pr-20">
-          <div class="tracking-wide text-3xl">Improve Clinician Productivity,<br/>Reduce Clinician Burnout.</div>
-          <p class="mt-2 text-slate-500 text-xl py-10">
-            Burnout has always been highest in healthcare and especially so in hospitals. Since covid it has reached an alarming <b>63% of physicians</b> in the States. The estimated annual financial loss there is $260M in burnout related turnover alone, and almost <b>$5B</b> when included with other consequences of burnout such as reduced quality of care and increase in medical error.
-            <br/>
-            <br/>
-            A significant contributor to burnout in hospitals is cumbersome processes that are a result of the complexity of the system. Yet we believe this is not intrinsic and can be improved. We <b>streamline hospital processes</b> for the clinicians so that they can focus on the professional part of their work, what they came here to focus on - <b>caring for patients</b>.
-            <br/>
-            <br/>
-            We are currently designing an application that focuses on improving <b>cross-department consultation</b> processes. By adding a layer of accessibility and transparency from the moment a request is made until it is fulfilled, we remove uncertainty and reduce the effort required from clinicians.
-          </p>
-        </div>
-        <div class="basis-1/3">
-          <div class="rounded-3xl border-2 border-themepurple p-5 mb-10">
-            <p class="font-bold text-l">For Hospitals</p>
-            <p class="mt-2 text-slate-500 text-l">Want to hear more or participate in our pilot?</p>
-            <a href="#contact_us">
-              <div class="rounded-3xl bg-themegreen active:bg-themetext focus:bg-themetext hover:bg-themetext p-3 m-3 text-themetext active:text-slate-100 focus:text-slate-100 hover:text-slate-100 border-2 border-themetext bg-opacity-30 text-center w-1/2 mx-auto mt-6">Contact Us</div>
-            </a>
+  <div id="home" class="snap-x snap-mandatory scroll-smooth bg-themedark font-mont">
+    <nav class="flex justify-right space-x-4 sticky top-0 container mx-auto max-w-md md:max-w-7xl bg-white/50">
+      <a href="#home" class="font-bold px-3 py-2 text-slate-300 hover:text-themelight">Home</a>
+      <a href="#about" class="font-bold px-3 py-2 text-slate-300 hover:text-themelight">About</a>
+      <a href="#contact_us" class="font-bold px-3 py-2 text-slate-300 hover:text-themelight">Contact Us</a>
+    </nav>
+    <div class="h-full snap-always">
+      <div class="py-20 pt-10 container mx-auto max-w-md md:max-w-7xl bg-white flex-row md:flex md:py-10 md:pt-20">
+          <div class="basis-2/3 md:p-30">
+            <div class="pb-20 mx-auto max-w-md">
+              <img src="./img/logo.svg" alt="VeraMed Logo">
+            </div>
+            <div class="tracking-wide text-center text-3xl pb-20">
+              Increase <span class="text-themelight">Patient</span> Satisfaction<br/>
+              Increase <span class="text-themelight">Clinician</span> Engagement<br/>
+              Increase <span class="text-themelight">Hospital</span> Profit Margin<br/><br/>
+              with a <span class="text-themelight">single tool.</span>
+            </div>
           </div>
-          <div class="rounded-3xl border-2 border-themepurple p-5">
-            <p class="font-bold text-l">For Clinicians</p>
-            <p class="mt-2 text-slate-500 text-l">Reach out to tell us how we can help with processes in your workplace.</p>
-            <a href="#contact_us">
-              <div class="rounded-3xl bg-themegreen active:bg-themetext focus:bg-themetext hover:bg-themetext p-3 m-3 text-themetext active:text-slate-100 focus:text-slate-100 hover:text-slate-100 border-2 border-themetext bg-opacity-30 text-center w-1/2 mx-auto mt-6">Contact Us</div>
-            </a>
+          <div class="basis-1/3 md:pr-20">
+            <img src="./img/mock.jpg" alt="VeraMed Mock">
+          </div>
+      </div>
+    </div>
+    <div id="about" class="bg-themedark h-full md:h-screen h-full snap-always">
+      <div class="container mx-auto max-w-md md:max-w-7xl flex-row md:flex md:py-10">
+        <div class="basis-1/3 p-10">
+          <img src="./img/hospital.png" alt="Hospital image">
+          <div class="bg-white p-5">
+            <div class="tracking-wide text-center text-2xl pb-5">Good for Hospitals</div>
+            <div class="pl-5">
+              <div class="basis-1/2 flex">
+                <img class="h-10" src="./img/up.svg" alt="up arrow">
+                <div class="pt-2">Profit Margin</div>
+              </div>
+              <div class="basis-1/2 flex">
+                <img class="h-10" src="./img/down.svg" alt="down arrow">
+                <div class="pt-2">Length of Stay</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="basis-1/3 p-10">
+          <img src="./img/patient.png" alt="Patient image">
+          <div class="bg-white p-5">
+            <div class="tracking-wide text-center text-2xl pb-5">Good for Patients</div>
+            <div class="pl-5">
+              <div class="basis-1/2 flex">
+                <img class="h-10" src="./img/up.svg" alt="up arrow">
+                <div class="pt-2">Satisfaction</div>
+              </div>
+              <div class="basis-1/2 flex">
+                <img class="h-10" src="./img/down.svg" alt="down arrow">
+                <div class="pt-2">Wait Time</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="basis-1/3 p-10">
+          <img src="./img/clinician.png" alt="Clinician image">
+          <div class="bg-white p-5">
+            <div class="tracking-wide text-center text-2xl pb-5">Good for Clinicians</div>
+            <div class="pl-5">
+              <div class="basis-1/2 flex">
+                <img class="h-10" src="./img/up.svg" alt="up arrow">
+                <div class="pt-2">Engagement</div>
+              </div>
+              <div class="basis-1/2 flex">
+                <img class="h-10" src="./img/down.svg" alt="down arrow">
+                <div class="pt-2">Administrative load</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div id="contact_us" class="bg-slate-100 h-full md:h-screen">
-    <div class="bg-white powr-contact-form mx-auto max-w-md" id="e02944c6_1675062980"></div>
+    <div id="contact_us" class="bg-slate-100 h-full md:h-screen h-full snap-always container mx-auto max-w-md md:max-w-7xl">
+      <div class="bg-white powr-contact-form mx-auto max-w-md" id="e02944c6_1675062980"></div>
+    </div>
   </div>
 </body>
 </html>
