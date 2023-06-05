@@ -30,10 +30,18 @@
             <img src="./img/logo.svg" class="h-10 mr-3" alt="VeraMed Logo" />
             <span class="self-end text-xl font-mont whitespace-nowrap dark:text-white hidden md:inline">Hospital coordination made easy</span>
         </a>
-        <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-          <span class="sr-only">Open main menu</span>
-          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-        </button>
+        <div class="md:hidden flex items-center">
+          <button class="outline-none menu-button">
+            <svg class="w-6 h-6 text-gray-500"
+              x-show="! showMenu"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 00 24 24"
+              stroke="currentColor"><path d="m4 6h16M4 12h16M4 18h16"><path></svg>
+          </button>
+        </div>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
@@ -48,6 +56,19 @@
           </ul>
         </div>
       </div>
+      <div class="hidden mobile-menu align-end">
+          <ul class="">
+            <li class="active">
+              <a href="#home" id="home_menu" class="block px-2 py-4 text-white text-themelight font-semibold">Home</a>
+            </li>
+            <li>
+              <a href="#about" id="about_menu" class="block px-2 py-4 text-white hover:text-themelight transition duration-300">About</a>
+            </li>
+            <li>
+              <a href="#contact_us" id="contact_menu" class="block px-2 py-4 text-white hover:text-themelight transition duration-300">Contact Us</a>
+            </li>
+          </ul>
+        </div>
     </nav>
     <div class="h-full snap-always">
       <div class="py-10 container mx-auto max-w-md md:max-w-7xl bg-white flex-row md:flex">
@@ -135,5 +156,24 @@
       </div>
     </div>
   </div>
+  <script>
+    const btn = document.querySelector('button.menu-button');
+    const menu = document.querySelector('.mobile-menu');
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+    const home_menu = document.querySelector('#home_menu');
+    home_menu.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+    const about_menu = document.querySelector('#about_menu');
+    about_menu.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+    const contact_menu = document.querySelector('#contact_menu');
+    contact_menu.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
 </body>
 </html>
