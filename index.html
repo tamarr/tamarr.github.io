@@ -10,11 +10,15 @@
       theme: {
         extend: {
           colors: {
-            themedark: '#14283A',
             themelight: '#74C9CB',
+            textcolor: '#25374D',
+            background: '#122F51',
+            about_bg: '#EAFEFF',
+            about_color: '#576A82',
+            about_border: '#9AD7D9',
           },
           fontFamily: {
-            main: "Ivar Text",
+            main: "Montserrat",
             mont: "Montserrat"
           },
         }
@@ -23,12 +27,12 @@
   </script>
 </head>
 <body>
-  <div id="home" class="snap-x snap-mandatory scroll-smooth bg-white font-main">
-    <nav class="sticky top-0 bg-white border-gray-200 dark:bg-gray-900">
+  <div class="bg-white font-main">
+    <nav class="sticky top-0 bg-white">
       <div class="mx-auto max-w-md md:max-w-7xl flex flex-wrap items-center justify-between p-4 px-10">
-        <a href="#home" class="flex items-center">
+        <a href="#home" class="flex-row items-center">
             <img src="./img/logo.svg" class="h-10 mr-3" alt="VeraMed Logo" />
-            <span class="self-end text-xl font-mont whitespace-nowrap dark:text-white hidden md:inline">Hospital coordination made easy</span>
+            <span class="self-end text-l font-mont whitespace-nowrap text-textcolor hidden md:inline">Hospital coordination made easy</span>
         </a>
         <div class="md:hidden flex items-center">
           <button class="outline-none menu-button">
@@ -43,15 +47,15 @@
           </button>
         </div>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
             <li>
-              <a href="#home" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-themelight" aria-current="page">Home</a>
+              <a href="#home" class="block py-2 pl-3 pr-4 text-textcolor rounded md:bg-transparent md:p-0 md:hover:text-themelight" aria-current="page">Home</a>
             </li>
             <li>
-              <a href="#about" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-themelight dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+              <a href="#about" class="block py-2 pl-3 pr-4 text-textcolor rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-themelight md:p-0">About</a>
             </li>
             <li>
-              <a href="#contact_us" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-themelight dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+              <a href="#contact_us" class="bg-[url('./img/button.svg')] bg-no-repeat bg-contain bg-center align-middle p-6 text-left text-white text-md mb-5 align-middle">Contact</a>
             </li>
           </ul>
         </div>
@@ -70,92 +74,69 @@
           </ul>
         </div>
     </nav>
-    <div class="h-full snap-always">
-      <div class="py-10 mx-auto max-w-md md:max-w-7xl bg-white flex-row md:flex">
-          <div class="basis-2/3">
-            <div class="tracking-wide text-3xl p-10 md:pb-20">
-              Coordination in a hospital is hard.<br/>But it doesn't have to be.<br/><br/><br/>
-              Increase <span class="text-themelight">Patient</span> Satisfaction<br/>
-              Increase <span class="text-themelight">Clinician</span> Engagement<br/>
-              Increase <span class="text-themelight">Hospital</span> Profit Margin<br/><br/>
-              with a <span class="text-themelight">single tool.</span>
-            </div>
-            <div class="bg-themelight max-w-xs w-30 p-5 rounded-full text-center text-white text-xl my-10 md:my-20 ml-10"><a href="#contact_us">Learn more</a></div>
-          </div>
-          <div class="basis-1/3 md:pr-20">
-            <img src="./img/mock.jpg" alt="VeraMed Mock">
-          </div>
+    <div id="home" class="h-full">
+    <div class="h-full flex-row md:flex py-10 mx-auto max-w-md md:h-screen md:-mt-20 bg-background text-white md:max-w-full bg-[url('./img/home_bg.svg')] bg-no-repeat bg-left-bottom bg-auto">
+      <div class="basis-2/3">
+        <div class="text-2xl p-10 z-20 md:max-w-2xl md:pt-40 md:m-auto">
+          Coordination in a hospital is hard.<br/>But it doesn't have to be.<br/><br/><br/>
+          <span class="text-bold">
+            Increase <span class="text-themelight">Patient</span> Satisfaction<br/>
+            Increase <span class="text-themelight">Clinician</span> Engagement<br/>
+            Increase <span class="text-themelight">Hospital</span> Profit Margin<br/><br/>
+            with a <span class="text-themelight">single tool.</span>
+          </span>
+          <br/><br/><br/><br/><br/>
+          <a href="#contact_us" class="bg-[url('./img/button.svg')] bg-no-repeat bg-center bg-contain align-middle w-full p-8 text-left text-white text-xl mb-5 align-middle">Learn more</a>
+        </div>
+      </div>
+      <div class="basis-1/3 md:mx-20">
+        <div class="h-full bg-[url('./img/mock_bg.svg')] bg-no-repeat bg-bottom bg-contain md:max-w-md md:m-auto md:mb-20 flex flex-wrap-reverse">
+          <img class="mx-10 h-2/3" src="./img/mock.png" alt="VeraMed Mock">
+        </div>
       </div>
     </div>
-    <div id="about" class="h-full snap-always block">
-      <div id="strip" class="bg-themedark pt-10">
-        <div class="mx-auto max-w-md md:max-w-7xl p-10 tracking-wide text-xl text-white">
+    </div>
+    <div id="about" class="h-full block">
+      <div id="strip" class="bg-about_bg flex-row md:flex">
+        <div class="md:pt-32 mx-auto max-w-md md:max-w-7xl p-10 tracking-wide text-xl text-about_color ">
           There are hundreds of tasks performed in a hospital department every single day. Currently most of them are managed informally, verbally, in text and beepers. It creates an overload on the clinicians, it wastes patients time and it leaves room for errors.
           <br/><br/><span class="text-themelight">VeraMed</span> improves and simplifies task management around patient care by offloading it into an easy to use app, built with well understood best practices. Digitizing task management saves time for patients, clinicians and the hospital at large.
         </div>
       </div>
       <div class="flex-row md:flex mx-auto max-w-md md:max-w-7xl px-5 py-5">
-        <div class="basis-1/3 border-2 border-themedark m-5 p-5">
-          <img src="./img/hospital.png" alt="Hospital image">
-          <div class="bg-white p-5">
-            <div class="tracking-wide text-center text-2xl pb-5">For Hospitals</div>
-            <div class="tracking-wide text-left text-md pl-3 pb-5">Increase net profit margin by reducing length of stay and improving efficiency</div>
-            <div>
-              <div class="basis-1/2 flex">
-                <img class="h-10" src="./img/up.svg" alt="up arrow">
-                <div class="pt-2">Profit Margin</div>
-              </div>
-              <div class="basis-1/2 flex">
-                <img class="h-10" src="./img/down.svg" alt="down arrow">
-                <div class="pt-2">Length of Stay</div>
-              </div>
-            </div>
+        <div class="basis-1/3 border rounded-lg border-about_border m-3 p-3">
+          <div class="bg-white">
+            <div class="text-center text-2xl text-bold pb-5">For Clinicians</div>
+            <div class="text-center text-md pl-3 pb-5">Increase engagement by focusing on what matters - caring for patients</div>
           </div>
-        </div>
-        <div class="basis-1/3 border-2 border-themedark m-5 p-5">
-          <img src="./img/patient.png" alt="Patient image">
-          <div class="bg-white p-5">
-            <div class="tracking-wide text-center text-2xl pb-5">For Patients</div>
-            <div class="tracking-wide text-left text-md pl-3 pb-5">Reduce wait time and increase trust by improving team syncronization</div>
-            <div>
-              <div class="basis-1/2 flex">
-                <img class="h-10" src="./img/up.svg" alt="up arrow">
-                <div class="pt-2">Satisfaction</div>
-              </div>
-              <div class="basis-1/2 flex">
-                <img class="h-10" src="./img/down.svg" alt="down arrow">
-                <div class="pt-2">Wait Time</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="basis-1/3 border-2 border-themedark m-5 p-5">
           <img src="./img/clinician.png" alt="Clinician image">
-          <div class="bg-white p-5">
-            <div class="tracking-wide text-center text-2xl pb-5">For Clinicians</div>
-            <div class="tracking-wide text-left text-md pl-3 pb-5">Increase engagement by focusing on what matters - caring for patients</div>
-            <div>
-              <div class="basis-1/2 flex">
-                <img class="h-10" src="./img/up.svg" alt="up arrow">
-                <div class="pt-2">Engagement</div>
-              </div>
-              <div class="basis-1/2 flex">
-                <img class="h-10" src="./img/down.svg" alt="down arrow">
-                <div class="pt-2">Administrative load</div>
-              </div>
-            </div>
+        </div>
+        <div class="basis-1/3 border rounded-lg border-about_border m-3 p-3">
+          <div class="bg-white">
+            <div class="text-center text-2xl text-bold pb-5">For Patients</div>
+            <div class="text-center text-md pl-3 pb-5">Reduce wait time and increase trust by improving team syncronization</div>
           </div>
+          <img src="./img/patient.png" alt="Patient image">
+        </div>
+        <div class="basis-1/3 border rounded-lg border-about_border m-3 p-3">
+          <div class="bg-white">
+            <div class="text-center text-2xl text-bold pb-5">For Hospitals</div>
+            <div class="text-center text-md pl-3 pb-5">Increase net profit margin by reducing length of stay and improving efficiency</div>
+          </div>
+          <img src="./img/hospital.png" alt="Hospital image">
         </div>
       </div>
     </div>
-    <div id="contact_us" class="h-full snap-always">
-      <div id="strip" class="bg-themedark">
-        <div class="mx-auto max-w-md md:max-w-7xl px-5 py-5 tracking-wide text-xl text-white pt-20">
-          Want to hear more? We'd love to chat!
+    <div id="contact_us" class="h-full">
+      <div id="strip" class="bg-background">
+        <div class="flex mx-auto max-w-md md:max-w-7xl text-xl text-white">
+          <div class="bg-white powr-contact-form mx-auto max-w-md p-10 m-10" id="e02944c6_1675062980"></div>
+          <img src="./img/contact.png" alt="Hospital image" class="max-w-md flex-end p-3">
         </div>
       </div>
-      <div class="mx-auto max-w-md md:max-w-7xl">
-        <div class="bg-white powr-contact-form mx-auto max-w-md py-20" id="e02944c6_1675062980"></div>
+      <div id="footer" class="flex bg-background bg-[url('./img/left_thingy.svg')] bg-no-repeat bg-left bg-contain align-middle">
+        <div class="basis-1/4"><img src="./img/logo_dark.svg" class="h-20" alt="VeraMed Logo" /></div>
+        <div class="basis-3/4 text-sm text-white pl-10">The medical teams in hospitals are struggling. Let's do things better.</div>
       </div>
     </div>
   </div>
