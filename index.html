@@ -1,160 +1,116 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://www.powr.io/powr.js?platform=html"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            themelight: '#74C9CB',
-            textcolor: '#25374D',
-            background: '#122F51',
-            about_bg: '#EAFEFF',
-            about_color: '#576A82',
-            about_border: '#9AD7D9',
-          },
-          fontFamily: {
-            main: "Montserrat",
-            mont: "Montserrat"
-          },
-        }
-      }
-    }
-  </script>
-</head>
-<body>
-  <div class="bg-white font-main">
-    <nav class="sticky top-0 bg-white">
-      <div class="mx-auto max-w-md md:max-w-7xl flex flex-wrap items-center justify-between p-4 px-10">
-        <a href="#home" class="flex-row items-center">
-            <img src="./img/logo.svg" class="h-10 mr-3" alt="VeraMed Logo" />
-            <span class="self-end text-l font-mont whitespace-nowrap text-textcolor hidden md:inline">Hospital coordination made easy</span>
-        </a>
-        <div class="md:hidden flex items-center">
-          <button class="outline-none menu-button">
-            <svg class="w-6 h-6 text-gray-500"
-              x-show="! showMenu"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              viewBox="0 00 24 24"
-              stroke="currentColor"><path d="m4 6h16M4 12h16M4 18h16"><path></svg>
-          </button>
+  <head>
+    <title>EUSense</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="flex flex-col w-full bg-black font-sans text-slate-200">
+    <header class="invisible md:visible flex flex-col items-center fixed gap-y-7 mt-5 w-full">
+        <ul class="flex gap-x-10 text-xl w-3/4 bg-black rounded-lg px-4">
+            <a href="#title" class="basis-7/12 p-2 outline-none
+                outline-offset-0 hover:text-cyan-600 text-3xl text-bold font-sans transition-all duration-300">
+            EUSense
+            </a>
+            <a href="#title" class="basis-1/12 p-2 outline-none 
+                    outline-offset-0 hover:text-cyan-600 transition-all duration-300">
+            Home
+            </a>
+             <a href="#eus" class="basis-1/12 p-2 outline-none 
+                    outline-offset-0 hover:text-cyan-600 transition-all duration-300">
+            EUS
+            </a>
+            <a href="#problem" class="basis-1/12
+                    p-2 outline-none outline-offset-0 
+                    hover:text-cyan-600 transition-all duration-300">
+            Problem
+            </a>
+            <a href="#solution" class="basis-1/12
+                    p-2 outline-none outline-offset-0 
+                    hover:text-cyan-600 transition-all duration-300">
+            Solution
+            </a>
+        </ul>
+    </header>
+    <section id="title" class="h-screen flex items-center text-5xl bg-no-repeat bg-right"
+                style="background-image: url('images/background.svg');">
+        <div class="w-3/4 m-auto">
+            <div class="w-1/2"><span class="underline [text-decoration-thickness:10px] [text-decoration-color:cyan]">Transforming</span> GI cancer diagnosis and treatment with AI for Endoscopic Ultrasound</div>
         </div>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
-            <li>
-              <a href="#home" class="block py-2 pl-3 pr-4 text-textcolor rounded md:bg-transparent md:p-0 md:hover:text-themelight" aria-current="page">Home</a>
-            </li>
-            <li>
-              <a href="#about" class="block py-2 pl-3 pr-4 text-textcolor rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-themelight md:p-0">About</a>
-            </li>
-            <li>
-              <a href="#contact_us" class="bg-[url('./img/button.svg')] bg-no-repeat bg-contain bg-center align-middle p-6 text-left text-white text-md mb-5 align-middle">Contact</a>
-            </li>
-          </ul>
+    </section>
+
+    <section id="eus" class="md:h-screen bg-cover bg-top w-full"
+                         style="background-image: url('images/background2.svg');">
+        <div class="h-full bg-gradient-to-t from-black to-transparent">
+            <div class="flex flex-col justify-center w-2/3 m-auto">
+                <div class="basis-1/3 text-3xl pt-60">
+                <span class="text-5xl">Endoscopic Ultrasound (EUS)</span> is one of the most sensitive GI instruments</div>
+                <div class="flex flex-col md:flex-row flex-nowrap basis-2/3 md:space-x-4 w-full">
+                    <div class="flex flex-col basis-1/2 items-left py-8 md:py-20 gap-y-7">
+                        <img src="images/bubble.svg" class="h-auto w-16">
+                        <div class="w-1/2 text-2xl">Diagnosis</div>
+                        <div class="w-full md:w-3/4 text-xl">
+                            <ul class="list-disc list-inside space-y-4">
+                                <li>Used for visual diagnosis as well as guiding a biopsy needle in the upper GI</li>
+                                <li>More sensitive than MRI and CT</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col basis-1/2 items-left py-8 md:py-20 gap-y-7">
+                        <img src="images/bubble.svg" class="h-auto w-16">
+                        <div class="w-2/3 text-2xl">Therapeutic Interventions</div>
+                        <div class="w-full md:w-3/4 text-xl">
+                            Cutting-edge procedures replacing traditional surgeries.
+                            E.g. RFA, Alpha-Radiation Therapy and non-surgical drainage of biliary tract
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="hidden mobile-menu align-end">
-          <ul class="">
-            <li class="active">
-              <a href="#home" id="home_menu" class="block px-2 py-4 text-textcolor text-themelight font-semibold">Home</a>
-            </li>
-            <li>
-              <a href="#about" id="about_menu" class="block px-2 py-4 text-textcolor hover:text-themelight transition duration-300">About</a>
-            </li>
-            <li>
-              <a href="#contact_us" id="contact_menu" class="block px-2 py-4 text-textcolor hover:text-themelight transition duration-300">Contact Us</a>
-            </li>
-          </ul>
+    </section>
+
+    <section id="problem" class="md:h-screen flex flex-col md:flex-row">
+        <div class="md:basis-2/3 h-full m-auto">
+            <div class="flex flex-col justify-center w-full md:w-2/3 m-auto">
+                <div class="basis-1/3 text-6xl pt-40 text-center md:text-left">
+                Usage is still <span class="underline [text-decoration-thickness:10px] [text-decoration-color:cyan]">limited</span>,<br>requiring years to <span class="underline [text-decoration-thickness:10px] [text-decoration-color:cyan]">master</span>
+                </div>
+                <div class="flex flex-row justify-center my-20">
+                    <div class="basis-1/3">
+                        <img src="images/bubble.svg" class="h-auto w-16 place-self-center my-8">
+                        <div class="w-1/2 text-xl place-self-center">Interpreting  requires expertise</div>
+                    </div>
+                    <div class="basis-1/3">
+                        <img src="images/wave.svg" class="h-auto w-16 place-self-center my-8">
+                        <div class="w-1/2 text-xl place-self-center">Difficult navigation and orientation</div>
+                    </div>
+                    <div class="basis-1/3">
+                        <img src="images/square.svg" class="h-auto w-16 place-self-center my-8">
+                        <div class="w-1/2 text-xl place-self-center">Restricted field of view</div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
-    <div id="home" class="h-full">
-    <div class="h-full flex-row md:flex py-10 mx-auto max-w-md md:h-screen md:-mt-20 bg-background text-white md:max-w-full bg-[url('./img/home_bg.svg')] bg-no-repeat bg-left-bottom bg-auto">
-      <div class="basis-1/2">
-        <div class="text-2xl p-10 z-20 md:max-w-xl md:pt-40 md:m-auto">
-          Coordination in a hospital is hard.<br/>But it doesn't have to be.<br/><br/><br/>
-          <span class="text-bold">
-            Increase <span class="text-themelight">Patient</span> Satisfaction<br/>
-            Increase <span class="text-themelight">Clinician</span> Engagement<br/>
-            Increase <span class="text-themelight">Hospital</span> Profit Margin<br/><br/>
-            with a <span class="text-themelight">single tool.</span>
-          </span>
-          <br/><br/><br/><br/><br/>
-          <a href="#contact_us" class="bg-[url('./img/button.svg')] bg-no-repeat bg-center bg-contain align-middle w-full p-8 text-left text-white text-xl mb-5 align-middle">Learn more</a>
+        <div class="invisible md:visible basis-1/3 bg-no-repeat bg-right w-full"
+                         style="background-image: url('images/background3.svg');">
+            <div class="h-full w-full bg-gradient-to-r from-black to-transparent"></div>
         </div>
-      </div>
-      <div class="basis-1/2 md:mt-10">
-          <img class="h-full rounded-lg" src="./img/brighter.png" alt="VeraMed Mock">
-      </div>
-    </div>
-    </div>
-    <div id="about" class="h-full block">
-      <div id="strip" class="bg-about_bg flex-row md:flex">
-        <div class="md:pt-32 mx-auto max-w-md md:max-w-7xl p-10 tracking-wide text-xl text-about_color ">
-          There are hundreds of tasks performed in a hospital department every single day. Currently most of them are managed informally, verbally, in text and beepers. It creates an overload on the clinicians, it wastes patients time and it leaves room for errors.
-          <br/><br/><span class="text-themelight">VeraMed</span> improves and simplifies task management around patient care by offloading it into an easy to use app, built with well understood best practices. Digitizing task management saves time for patients, clinicians and the hospital at large.
+    </section>
+    <section id="solution" class="md:h-screen bg-cover bg-top w-full mb-20"
+                         style="background-image: url('images/background2.svg');">
+        <div class="h-full bg-gradient-to-t from-black to-transparent">
+            <div class="w-3/4 md:w-2/3 m-auto pt-36">
+                <img src="images/triple.svg" class="invisible md:visible h-auto w-1/2 m-auto" />
+                <div class="my-20 text-2xl m-auto text-center">EUS is ideal for human-AI collaboration, removing barriers in diagnosis and therapy.</div>
+                <div class="mt-20 text-4xl md:text-6xl m-auto text-center">EUSense will enable GI clinics to perform minimally invasive procedures, expanding operations and <span class="underline [text-decoration-thickness:10px] [text-decoration-color:cyan]">extending lives</span></div>
+            </div>
         </div>
-      </div>
-      <div class="flex-row md:flex mx-auto max-w-md md:max-w-7xl px-5 py-5">
-        <div class="basis-1/3 border rounded-lg border-about_border m-3 p-3">
-          <div class="bg-white">
-            <div class="text-center text-2xl text-bold pb-5">For Clinicians</div>
-            <div class="text-center text-md pl-3 pb-5">Increase engagement by focusing on what matters - caring for patients</div>
-          </div>
-          <img src="./img/clinician.png" class="rounded-lg" alt="Clinician image">
-        </div>
-        <div class="basis-1/3 border rounded-lg border-about_border m-3 p-3">
-          <div class="bg-white">
-            <div class="text-center text-2xl text-bold pb-5">For Patients</div>
-            <div class="text-center text-md pl-3 pb-5">Reduce wait time and increase trust by improving team syncronization</div>
-          </div>
-          <img src="./img/patient.png" class="rounded-lg" alt="Patient image">
-        </div>
-        <div class="basis-1/3 border rounded-lg border-about_border m-3 p-3">
-          <div class="bg-white">
-            <div class="text-center text-2xl text-bold pb-5">For Hospitals</div>
-            <div class="text-center text-md pl-3 pb-5">Increase net profit margin by reducing length of stay and improving efficiency</div>
-          </div>
-          <img src="./img/hospital.png" class="rounded-lg" alt="Hospital image">
-        </div>
-      </div>
-    </div>
-    <div id="contact_us" class="h-full pt-32">
-      <div id="strip" class="bg-background bg-[url('./img/contact_bg.svg')] bg-no-repeat bg-left bg-contain">
-        <div class="flex mx-auto max-w-md md:max-w-7xl text-xl text-white py-10 justify-between">
-          <img src="./img/contact.png" alt="Hospital image" class="basis-1/2 hidden md:inline-block max-w-sm rounded-lg my-auto">
-          <div class="powr-contact-form w-full md:w-2/3 md:basis-1/2" id="e02944c6_1675062980"></div>
-        </div>
-      </div>
-      <div id="footer" class="flex align-middle">
-        <img src="./img/logo_dark.svg" class="max-w-xs mx-auto" alt="VeraMed Logo" /></div>
-      </div>
-    </div>
-  </div>
-  <script>
-    const btn = document.querySelector('button.menu-button');
-    const menu = document.querySelector('.mobile-menu');
-    btn.addEventListener('click', () => {
-      menu.classList.toggle('hidden');
-    });
-    const home_menu = document.querySelector('#home_menu');
-    home_menu.addEventListener('click', () => {
-      menu.classList.toggle('hidden');
-    });
-    const about_menu = document.querySelector('#about_menu');
-    about_menu.addEventListener('click', () => {
-      menu.classList.toggle('hidden');
-    });
-    const contact_menu = document.querySelector('#contact_menu');
-    contact_menu.addEventListener('click', () => {
-      menu.classList.toggle('hidden');
-    });
-  </script>
-</body>
+    </section>
+    <footer class="m-10">
+    © Copyright 2025 EUSense
+    </footer>
+</div>
+  </body>
 </html>
