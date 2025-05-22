@@ -1,108 +1,309 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>EUSense</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EUSense - AI for Endoscopic Ultrasound</title>
+    <meta name="description" content="Transforming GI care with AI for Endoscopic Ultrasound" />
+    <meta name="author" content="EUSense" />
+
+    <meta property="og:title" content="EUSense - AI for Endoscopic Ultrasound" />
+    <meta property="og:description" content="Transforming GI care with AI for Endoscopic Ultrasound" />
+    <meta property="og:type" content="website" />
+
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body>
-    <div class="flex flex-col w-full bg-black font-sans text-slate-200">
-    <header class="invisible md:visible flex flex-col items-center fixed gap-y-7 mt-5 w-full">
-        <ul class="flex gap-x-10 text-xl w-3/4 bg-black rounded-lg px-4">
-            <a href="#title" class="basis-6/12 p-2 outline-none
-                outline-offset-0 hover:text-cyan-600 text-3xl text-bold font-sans transition-all duration-300">
-            Home
-            </a>
-             <a href="#eus" class="basis-2/12 p-2 outline-none 
-                    outline-offset-0 hover:text-cyan-600 transition-all duration-300">
-            What is EUS
-            </a>
-            <a href="#why" class="basis-2/12
-                    p-2 outline-none outline-offset-0 
-                    hover:text-cyan-600 transition-all duration-300">
-            Why EUSense
-            </a>
-            <a href="#mission" class="basis-1/12
-                    p-2 outline-none outline-offset-0 
-                    hover:text-cyan-600 transition-all duration-300">
-            Mission
-            </a>
-        </ul>
-    </header>
-    <section id="title" class="h-screen flex items-center text-5xl bg-no-repeat bg-right"
-                style="background-image: url('images/background.svg');">
-        <div class="w-3/4 m-auto pt-60">
-            <div class="w-1/2"><span class="underline [text-decoration-thickness:4px] [text-decoration-color:cyan]">Transforming</span> GI care with AI for Endoscopic Ultrasound</div>
-        </div>
-    </section>
 
-    <section id="eus" class="md:h-screen bg-cover bg-top w-full"
-                         style="background-image: url('images/background2.svg');">
-        <div class="h-full bg-gradient-to-t from-black to-transparent">
-            <div class="flex flex-col justify-center w-2/3 m-auto">
-                <div class="basis-1/3 text-3xl pt-60">
-                    <span class="text-5xl">Endoscopic Ultrasound (EUS)</span>
-                    <div class="text-xl">One of the most advanced GI instruments</div>
-                    <div class="text-xl">Rapidly growing body of research and interventions</div>
+  <body>
+    <div id="root">
+      <!-- Navbar -->
+      <header class="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-sm border-b border-gray-100">
+        <div class="container mx-auto flex h-16 items-center justify-between px-4">
+          <div class="flex items-center gap-2">
+            <a href="#home" class="font-bold text-xl text-sky-600">EUSense</a>
+          </div>
+
+          <nav class="hidden md:flex items-center gap-6">
+            <a href="#problem" class="text-gray-600 hover:text-sky-600 transition-colors">Problem</a>
+            <a href="#solution" class="text-gray-600 hover:text-sky-600 transition-colors">Solution</a>
+            <a href="#team" class="text-gray-600 hover:text-sky-600 transition-colors">Team</a>
+            <a href="#contact" class="text-gray-600 hover:text-sky-600 transition-colors">Contact</a>
+          </nav>
+
+          <div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Content -->
+      <main>
+        <!-- Hero Section -->
+        <section id="home" class="py-16 md:py-24 overflow-hidden">
+          <div class="container mx-auto px-4 md:px-6">
+            <div class="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
+              <div class="flex flex-col justify-center space-y-4">
+                <div class="flex flex-col gap-2 min-[400px]:flex-row h-24">
                 </div>
-                <div class="flex flex-col md:flex-row flex-nowrap basis-2/3 md:space-x-4 w-full">
-                    <div class="flex flex-col basis-1/2 items-left py-8 md:py-20 gap-y-7">
-                        <img src="images/square.svg" class="h-auto w-16">
-                        <div class="w-1/2 text-2xl">Diagnostics</div>
-                        <div class="w-full md:w-3/4 text-xl">
-                            Through the luminal tract it offers <span class="font-bold">unprecedented access</span> to the entire digestive system and beyond.
-                        </div>
+                <h1 class="text-3xl text-sky-600 font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
+                  Transforming GI care with AI for Endoscopic Ultrasound
+                </h1>
+                <div class="inline-block">
+                  <img 
+                        src="images/separator.png" 
+                        alt="seperator" 
+                        class="w-full h-full object-contain"
+                      />
+                </div>
+                <p class="max-w-[600px] text-gray-500 md:text-xl">
+                  A real-time AI assistant delivering instant interpretation of ultrasound video for improved diagnostic accuracy and enable advanced therapeutics.
+                </p>
+              </div>
+              <div class="flex items-center justify-center">
+                <div class="relative w-full">
+                  <div class="aspect-video rounded-2xl eusense-gradient p-1">
+                    <div class="h-full w-full rounded-xl bg-white overflow-hidden">
+                      <img 
+                        src="images/detect.png" 
+                        alt="AI Endoscopic Analysis Detection" 
+                        class="w-full h-full object-contain"
+                      />
                     </div>
-                    <div class="flex flex-col basis-1/2 items-left py-8 md:py-20 gap-y-7">
-                        <img src="images/square.svg" class="h-auto w-16">
-                        <div class="w-2/3 text-2xl">Therapeutics</div>
-                        <div class="w-full md:w-3/4 text-xl">
-                            <span class="font-bold">Cutting-edge procedures replacing invasive surgeries.</span>
-                            E.g. RFA, Alpha-Radiation Therapy and non-surgical drainage of biliary tract
-                        </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Problem Section -->
+        <section id="problem" class="py-16 md:py-24 bg-gray-50">
+          <div class="container mx-auto px-4 md:px-6">
+            <div class="flex flex-col items-center justify-center space-y-4 text-center">
+              <div class="space-y-2 max-w-[800px]">
+                <h2 class="text-3xl text-sky-600 font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                  The Problem
+                </h2>
+                <p class="text-gray-500 md:text-xl">
+                  Accurate and timely diagnosis and advanced surgery alternatives rely on EUS interpretation
+                </p>
+              </div>
+            </div>
+            
+            <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              <div class="border-none shadow-md rounded-lg bg-white p-6">
+                <div class="text-4xl font-bold text-amber-500 mb-2">2nd</div>
+                <h3 class="text-xl font-medium mb-2">Deadliest Cancer by 2030</h3>
+                <p class="text-gray-500">
+                  Pancreatic cancer will be 2nd deadliest cancer in U.S. and Europe by 2030.
+                </p>
+              </div>
+              
+              <div class="border-none shadow-md rounded-lg bg-white p-6">
+                <div class="text-4xl font-bold text-amber-500 mb-2">80%</div>
+                <h3 class="text-xl font-medium mb-2">Late-stage Diagnosis</h3>
+                <p class="text-gray-500">
+                  80% of patients are diagnosed too late for surgery.
+                </p>
+              </div>
+              
+              <div class="border-none shadow-md rounded-lg bg-white p-6">
+                <div class="text-4xl font-bold text-amber-500 mb-2">EUS</div>
+                <h3 class="text-xl font-medium mb-2">Complex interpretation</h3>
+                <p class="text-gray-500">
+                  Endoscopic Ultrasound (EUS) requires special training and expertise to interpret ultrasound images.
+                </p>
+              </div>
+            </div>
+            <div class="inline-block my-8">
+              <img 
+                    src="images/separator.png" 
+                    alt="seperator" 
+                    class=" w-2/3 m-auto object-contain"
+                  />
+            </div>
+            <div class="text-gray-500 text-center bg-white rounded-xl shadow-lg p-6 md:p-8">
+              <h3 class="text-2xl font-bold mb-6">EUS is the key to both accurate, timely diagnosis as well as new cutting edge therapeutics such as RFA and localized radiation. Yet it remains hard to interpert and heavily operator dependant.</h3>
+            </div>
+          </div>
+        </section>
+
+        <!-- Solution Section -->
+        <section id="solution" class="py-16 md:py-24">
+          <div class="container mx-auto px-4 md:px-6">
+            <div class="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
+              <div class="relative">
+                <div class="absolute -inset-1 rounded-lg eusense-gradient opacity-20 blur-xl"></div>
+                <div class="relative rounded-xl overflow-hidden shadow-2xl">
+                  <img 
+                    src="images/detect.png" 
+                    alt="AI EUS Solution" 
+                    class="w-full h-auto"
+                  />
+                </div>
+              </div>
+              
+              <div class="flex flex-col space-y-6">
+                <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold border-transparent bg-blue-100 text-blue-600 w-fit">
+                  A perfect candidate for human-AI collaboration
+                </div>
+                
+                <h2 class="text-3xl text-sky-600 font-bold tracking-tighter sm:text-4xl">
+                  A real-time AI assistant for endoscopists
+                </h2>
+                
+                <p class="text-gray-600">
+                  Delivering instant interpretation of the ultrasound video to improve diagnostic accuracy and patient outcomes.
+                </p>
+                
+                <div class="space-y-4 mt-4">
+                  <div class="flex items-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-3 h-6 w-6 text-amber-500 flex-shrink-0">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <path d="m9 12 2 2 4-4"></path>
+                    </svg>
+                    <div>
+                      <h3 class="font-medium text-lg">Improve biopsies intake</h3>
+                      <p class="text-gray-500">
+                        AI-guided identification of optimal biopsy sites improves sample quality and diagnostic yield.
+                      </p>
                     </div>
+                  </div>
+                  
+                  <div class="flex items-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-3 h-6 w-6 text-amber-500 flex-shrink-0">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <path d="m9 12 2 2 4-4"></path>
+                    </svg>
+                    <div>
+                      <h3 class="font-medium text-lg">Enable cutting edge therapeutics</h3>
+                      <p class="text-gray-500">
+                        Advanced visualization and real-time guidance for complex endoscopic procedures and interventions.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div class="flex items-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-3 h-6 w-6 text-amber-500 flex-shrink-0">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <path d="m9 12 2 2 4-4"></path>
+                    </svg>
+                    <div>
+                      <h3 class="font-medium text-lg">Expand access to crucial care</h3>
+                      <p class="text-gray-500">
+                        Enabling more endoscopists to perform accurate EUS, bringing specialized care to patients everywhere.
+                      </p>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </section>
-    <section id="why" class="md:h-screen w-2/3 m-auto md:w-full md:m-0 flex flex-col md:flex-row">
-        <div class="basis-1/3 md:basis-2/3">
-            <div class="md:w-2/3 md:m-auto text-4xl md:pt-40 md:pl-10 text-center justify-center md:text-left">
-                EUS requires years to master, <span class="underline [text-decoration-thickness:4px] [text-decoration-color:cyan]">confining crucial treatments</span> to a select group of experts.
+          </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="py-16 md:py-24 bg-gray-50">
+          <div class="container mx-auto px-4 md:px-6">
+            <div class="flex flex-col items-center justify-center space-y-4 text-center mb-12">
+              <h2 class="text-3xl text-sky-600 font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                Meet Our Team
+              </h2>
+              <p class="max-w-[800px] text-gray-500 md:text-xl">
+                World-class experts in gastroenterology and technology
+              </p>
             </div>
-            <div class="md:w-2/3 md:m-auto text-4xl pt-20 md:pt-40 md:pl-10 text-center justify-center md:text-left">
-                <span class="text-4xl text-cyan-400">Until Now.</span><br/><br/>
-                EUSense is a Real-Time AI Assistant that unlocks the full potential of EUS
-            </div>
-        </div>
-        <div class="basis-2/3 py-20 my-20 md:basis-1/3 h-full md:h-auto bg-cover bg-center md:mt-40 md:mr-20"
-                         style="background-image: url('images/background5.png');">
-        </div>
-    </section>
-    <section id="mission" class="h-screen flex flex-col md:flex-row text-5xl bg-no-repeat bg-right"
-                                        style="background-image: url('images/background.svg');">
-        <div class="md:basis-2/3 flex flex-col h-full bg-gradient-to-r from-black from-70% to-transparent">
-            <div class="md:w-2/3 md:m-auto text-4xl pt-20 text-center justify-center md:text-left">
-                <span class="text-cyan-400">Mission Statement:</span><br/>
-                More treatments, More patients, More regions
-            </div>
-            <div class="md:w-2/3 md:m-auto text-4xl pt-10">
-                <div class="py-4 text-center justify-center md:text-left">
-                    <span class="text-cyan-400">First Step:</span>
-                    Pancreatic Cancer
+            
+            <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+              <!-- Team Member 1 -->
+              <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
+                <div class="h-24 w-24 mb-4 overflow-hidden rounded-full">
+                  <img src="images/tom.png" alt="Tom Konikoff, MD" class="h-full w-full object-cover" onerror="this.src='/images/avatar-placeholder.png'"/>
                 </div>
-                <div class="text-2xl md:w-3/4 border border-cyan-600 rounded-xl m-4 p-4">By 2030, the 2nd deadliest cancer</div>
-                <div class="text-2xl md:w-3/4 border border-cyan-600 rounded-xl m-4 p-4">80% of cases are diagnosed too late for surgery</div>
-                <div class="text-2xl md:w-3/4 border border-cyan-600 rounded-xl m-4 p-4">RFA is one of the only potential treatments for early or inoperable cases, but few experts can perform it</div>
+                
+                <h3 class="text-xl font-bold">Tom Konikoff, MD</h3>
+                <p class="text-sky-600 font-medium mb-3">Inventor & Advisor</p>
+                <p class="text-gray-500">Postdoctoral research fellow, Mayo Clinic. Early detection of GI malignancies, Gastroenterology, Rabin Medical Center. Faculty of Medical & Health Sciences, Tel-Aviv University.</p>
+              </div>
+
+              <!-- Team Member 2 -->
+              <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
+                <div class="h-24 w-24 mb-4 overflow-hidden rounded-full">
+                  <img src="images/steven.png" alt="Steven Shamah, MD" class="h-full w-full object-cover" onerror="this.src='/images/avatar-placeholder.png'"/>
+                </div>
+                
+                <h3 class="text-xl font-bold">Steven Shamah, MD</h3>
+                <p class="text-sky-600 font-medium mb-3">Inventor & Advisor</p>
+                <p class="text-gray-500">Former chairman of the endoscopy committee for Israel's Gastroenterology Association. Acting chief of endoscopy at Lenox Hill Hospital, Manhattan Campus of Northwell Health.</p>
+              </div>
+
+              <!-- Team Member 3 -->
+              <div class="bg-white p-6 rounded-xl shadow-md flex flex-col items-center text-center">
+                <div class="h-24 w-24 mb-4 overflow-hidden rounded-full">
+                  <img src="images/tamar.png" alt="Tamar Rucham" class="h-full w-full object-cover" onerror="this.src='/images/avatar-placeholder.png'"/>
+                </div>
+                
+                <h3 class="text-xl font-bold">Tamar Rucham</h3>
+                <p class="text-sky-600 font-medium mb-3">CEO</p>
+                <p class="text-gray-500">Experienced Tech Leader. MSc in Math and Computation from Harvard. Proven track record building teams and products from scratch.</p>
+              </div>
             </div>
+          </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 md:py-24 eusense-gradient text-white">
+          <div class="container mx-auto px-4 md:px-6">
+            <div class="flex flex-col items-center justify-center space-y-4 text-center">
+              <div class="space-y-2">
+                <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                  Ready to Transform Pancreatic Cancer Diagnosis and Care?
+                </h2>
+                <p class="md:text-xl opacity-90">
+                  Contact us to learn how our AI assistant can improve your diagnostic accuracy and enable new cutting edge therapeutics.
+                </p>
+              </div>
+              
+              <div class="flex flex-col sm:flex-row gap-4 mt-6">
+                <a href="mailto:tamar@eusense.com" class="border border-white text-white hover:bg-white/10 px-4 py-2 rounded">
+                  Contact Us
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="container mx-auto px-4 md:px-6">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+              <div class="flex items-center gap-2 mb-4">
+                <span class="font-bold text-xl text-white">EUSense</span>
+              </div>
+              <p class="text-sm">
+                Transforming GI care with AI for Endoscopic Ultrasound
+              </p>
+            </div>
+            
+            <div>
+              <h3 class="font-medium text-white mb-4">Quick Links</h3>
+              <ul class="space-y-2">
+                <li><a href="#problem" class="hover:text-white transition-colors">The Problem</a></li>
+                <li><a href="#solution" class="hover:text-white transition-colors">Our Solution</a></li>
+                <li><a href="#team" class="hover:text-white transition-colors">Team</a></li>
+                <li><a href="#contact" class="hover:text-white transition-colors">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="border-t border-gray-800 mt-8 pt-8 text-sm text-center">
+            <p>&copy; 2025 EUSense. All rights reserved.</p>
+          </div>
         </div>
-        <div class="md:basis-1/3"></div>
-    </section>
-    <footer class="m-10 pt-10 mt-20">
-    © Copyright 2025 EUSense
-    <a href="assets/EUSense_onepager.pdf" download class="text-cyan-600 hover:underline pl-8">Download OnePager</a>
-    </footer>
-</div>
+      </footer>
+    </div>
   </body>
 </html>
